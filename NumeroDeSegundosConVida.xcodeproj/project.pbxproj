@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C096E93715CB670C003B5D5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C096E93615CB670C003B5D5B /* Foundation.framework */; };
+		C096E93A15CB670C003B5D5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C096E93915CB670C003B5D5B /* main.m */; };
+		C096E93E15CB670C003B5D5B /* NumeroDeSegundosConVida.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C096E93D15CB670C003B5D5B /* NumeroDeSegundosConVida.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C096E93015CB670C003B5D5B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C096E93E15CB670C003B5D5B /* NumeroDeSegundosConVida.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C096E93215CB670C003B5D5B /* NumeroDeSegundosConVida */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumeroDeSegundosConVida; sourceTree = BUILT_PRODUCTS_DIR; };
+		C096E93615CB670C003B5D5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C096E93915CB670C003B5D5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C096E93C15CB670C003B5D5B /* NumeroDeSegundosConVida-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NumeroDeSegundosConVida-Prefix.pch"; sourceTree = "<group>"; };
+		C096E93D15CB670C003B5D5B /* NumeroDeSegundosConVida.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NumeroDeSegundosConVida.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C096E92F15CB670C003B5D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C096E93715CB670C003B5D5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C096E92715CB670C003B5D5B = {
+			isa = PBXGroup;
+			children = (
+				C096E93815CB670C003B5D5B /* NumeroDeSegundosConVida */,
+				C096E93515CB670C003B5D5B /* Frameworks */,
+				C096E93315CB670C003B5D5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C096E93315CB670C003B5D5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C096E93215CB670C003B5D5B /* NumeroDeSegundosConVida */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C096E93515CB670C003B5D5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C096E93615CB670C003B5D5B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C096E93815CB670C003B5D5B /* NumeroDeSegundosConVida */ = {
+			isa = PBXGroup;
+			children = (
+				C096E93915CB670C003B5D5B /* main.m */,
+				C096E93D15CB670C003B5D5B /* NumeroDeSegundosConVida.1 */,
+				C096E93B15CB670C003B5D5B /* Supporting Files */,
+			);
+			path = NumeroDeSegundosConVida;
+			sourceTree = "<group>";
+		};
+		C096E93B15CB670C003B5D5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C096E93C15CB670C003B5D5B /* NumeroDeSegundosConVida-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C096E93115CB670C003B5D5B /* NumeroDeSegundosConVida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C096E94115CB670C003B5D5B /* Build configuration list for PBXNativeTarget "NumeroDeSegundosConVida" */;
+			buildPhases = (
+				C096E92E15CB670C003B5D5B /* Sources */,
+				C096E92F15CB670C003B5D5B /* Frameworks */,
+				C096E93015CB670C003B5D5B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumeroDeSegundosConVida;
+			productName = NumeroDeSegundosConVida;
+			productReference = C096E93215CB670C003B5D5B /* NumeroDeSegundosConVida */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C096E92915CB670C003B5D5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jose Salcido";
+			};
+			buildConfigurationList = C096E92C15CB670C003B5D5B /* Build configuration list for PBXProject "NumeroDeSegundosConVida" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C096E92715CB670C003B5D5B;
+			productRefGroup = C096E93315CB670C003B5D5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C096E93115CB670C003B5D5B /* NumeroDeSegundosConVida */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C096E92E15CB670C003B5D5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C096E93A15CB670C003B5D5B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C096E93F15CB670C003B5D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C096E94015CB670C003B5D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C096E94215CB670C003B5D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumeroDeSegundosConVida/NumeroDeSegundosConVida-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C096E94315CB670C003B5D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumeroDeSegundosConVida/NumeroDeSegundosConVida-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C096E92C15CB670C003B5D5B /* Build configuration list for PBXProject "NumeroDeSegundosConVida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C096E93F15CB670C003B5D5B /* Debug */,
+				C096E94015CB670C003B5D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C096E94115CB670C003B5D5B /* Build configuration list for PBXNativeTarget "NumeroDeSegundosConVida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C096E94215CB670C003B5D5B /* Debug */,
+				C096E94315CB670C003B5D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C096E92915CB670C003B5D5B /* Project object */;
+}
